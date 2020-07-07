@@ -1,0 +1,47 @@
+
+  p {
+    color:red;
+  }
+  a{
+    text-decoration: none;
+  }
+  h1 {
+    color:black;
+    font-size: 50px;
+    text-align: center;
+    border-bottom:1px solid gray;
+    margin:0;
+  }
+  .saw {
+    color:orange
+  }
+  .saw2{
+    color:pink
+  }
+  #active{
+    color: skyblue
+  }
+  body{
+    margin:0;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #grid ol{
+    border-right:1px solid gray;
+    width:120px;
+    margin:0;
+    padding: 20px;
+  }
+  #article{
+    padding: 20px;
+  }
+  @media(max-width:800px){
+    #grid{
+      display: block;
+    }
+    #grid ol{
+      border-right:none
+    }
+  }
